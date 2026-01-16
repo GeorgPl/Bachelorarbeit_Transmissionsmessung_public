@@ -1,0 +1,1999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="LM_Stylesheet.xsl"?>
+<Ophthalmology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:nsCommon="http://www.joia.or.jp/standardized/namespaces/Common" 
+xmlns:nsLM="http://www.joia.or.jp/standardized/namespaces/LM" 
+xsi:schemaLocation="http://www.joia.or.jp/standardized/namespaces/Common Common_schema.xsd
+					http://www.joia.or.jp/standardized/namespaces/LM LM_schema.xsd">
+	<nsCommon:Common>
+		<nsCommon:Company>TOPCON</nsCommon:Company>
+		<nsCommon:ModelName>SOLOS</nsCommon:ModelName>
+		<nsCommon:MachineNo>420001417</nsCommon:MachineNo>
+		<nsCommon:ROMVersion>0.0.1</nsCommon:ROMVersion>
+		<nsCommon:Version>Output data of Ophthalmic Examination Equipment 01 (JOIA Std.)</nsCommon:Version>
+		<nsCommon:Date>2026-01-13</nsCommon:Date>
+		<nsCommon:Time>14:37:16</nsCommon:Time>
+		<nsCommon:Patient>
+			<nsCommon:No.>1033</nsCommon:No.>
+			<nsCommon:ID>MPO_11_W09</nsCommon:ID>
+			<nsCommon:FirstName></nsCommon:FirstName>
+			<nsCommon:MiddleName></nsCommon:MiddleName>
+			<nsCommon:LastName></nsCommon:LastName>
+			<nsCommon:Sex>0</nsCommon:Sex>
+			<nsCommon:Age></nsCommon:Age>
+			<nsCommon:DOB></nsCommon:DOB>
+			<nsCommon:NameJ1></nsCommon:NameJ1>
+			<nsCommon:NameJ2></nsCommon:NameJ2>
+		</nsCommon:Patient>
+		<nsCommon:Operator>
+			<nsCommon:No.></nsCommon:No.>
+			<nsCommon:ID></nsCommon:ID>
+		</nsCommon:Operator>
+	</nsCommon:Common>
+	<nsLM:Measure type="LM">
+		<nsLM:MeasureMode></nsLM:MeasureMode>
+		<nsLM:DiopterStep unit="D">0.25</nsLM:DiopterStep>
+		<nsLM:AxisStep unit="deg">1</nsLM:AxisStep>
+		<nsLM:CylinderMode>-</nsLM:CylinderMode>
+		<nsLM:LensType></nsLM:LensType>
+		<nsLM:AbbeNumber>-</nsLM:AbbeNumber>
+		<nsLM:Wavelength>-</nsLM:Wavelength>
+		<nsLM:PrismDiopterStep unit="Pri">0.25</nsLM:PrismDiopterStep>
+		<nsLM:PrismBaseStep unit="deg">1</nsLM:PrismBaseStep>
+		<nsLM:PrismMode>pb</nsLM:PrismMode>
+		<nsLM:AddMode>add</nsLM:AddMode>
+		<nsLM:LM>
+			<nsLM:S>
+				<nsLM:UVTransmittance unit="%">14</nsLM:UVTransmittance>
+				<TransmittanceData>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">315</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">316</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">317</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">318</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">319</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">320</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">321</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">322</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">323</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">324</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">325</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">326</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">327</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">328</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">329</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">330</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">331</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">332</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">333</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">334</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">335</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">336</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">337</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">338</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">339</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">340</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">341</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">342</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">343</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">0</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">344</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">345</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">346</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">347</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">348</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">349</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">350</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">1</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">351</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">2</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">352</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">3</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">353</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">4</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">354</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">5</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">355</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">6</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">356</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">7</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">357</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">8</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">358</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">10</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">359</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">12</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">360</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">14</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">361</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">16</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">362</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">18</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">363</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">19</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">364</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">21</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">365</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">23</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">366</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">26</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">367</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">28</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">368</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">31</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">369</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">33</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">370</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">35</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">371</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">38</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">372</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">42</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">373</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">46</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">374</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">51</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">375</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">55</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">376</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">58</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">377</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">61</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">378</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">63</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">379</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">66</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">380</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">68</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">381</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">71</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">382</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">73</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">383</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">75</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">384</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">76</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">385</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">77</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">386</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">78</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">387</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">79</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">388</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">80</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">389</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">81</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">390</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">82</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">391</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">83</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">392</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">83</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">393</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">84</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">394</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">85</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">395</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">86</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">396</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">86</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">397</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">87</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">398</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">87</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">399</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">87</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">400</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">88</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">401</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">88</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">402</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">89</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">403</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">89</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">404</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">90</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">405</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">90</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">406</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">90</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">407</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">91</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">408</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">91</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">409</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">91</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">410</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">91</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">411</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">91</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">412</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">91</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">413</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">91</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">414</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">415</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">416</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">417</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">418</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">419</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">420</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">421</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">422</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">423</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">424</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">425</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">426</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">427</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">428</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">429</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">430</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">431</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">432</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">433</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">434</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">435</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">436</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">437</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">438</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">439</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">440</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">441</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">442</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">443</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">444</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">445</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">446</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">447</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">448</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">449</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">450</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">451</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">452</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">453</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">454</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">455</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">456</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">457</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">458</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">459</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">460</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">461</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">462</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">463</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">464</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">465</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">466</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">467</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">468</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">469</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">470</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">471</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">472</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">473</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">474</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">475</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">476</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">477</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">478</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">479</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">480</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">481</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">482</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">483</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">484</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">485</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">486</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">487</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">488</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">489</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">490</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">491</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">492</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">493</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">494</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">495</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">496</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">497</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">498</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">499</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">500</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">501</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">502</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">503</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">504</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">505</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">506</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">507</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">508</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">509</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">510</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">511</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">512</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">513</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">514</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">515</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">516</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">517</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">518</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">519</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">520</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">521</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">522</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">523</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">524</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">525</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">526</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">527</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">528</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">529</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">530</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">531</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">532</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">533</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">534</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">535</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">536</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">537</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">538</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">539</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">540</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">541</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">542</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">543</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">544</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">545</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">546</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">547</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">548</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">549</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">550</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">551</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">552</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">553</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">554</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">555</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">556</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">557</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">558</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">559</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">560</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">561</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">562</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">563</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">564</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">565</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">566</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">567</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">568</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">569</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">570</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">571</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">572</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">573</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">574</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">575</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">576</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">577</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">578</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">579</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">580</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">581</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">582</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">583</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">584</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">585</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">586</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">587</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">588</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">589</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">590</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">591</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">592</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">593</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">594</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">595</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">596</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">597</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">598</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">599</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">600</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">601</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">602</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">603</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">604</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">605</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">606</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">607</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">608</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">609</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">610</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">611</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">612</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">613</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">614</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">615</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">616</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">617</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">618</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">619</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">620</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">621</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">622</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">623</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">624</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">625</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">626</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">627</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">628</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">629</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">630</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">631</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">632</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">633</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">634</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">635</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">636</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">637</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">638</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">639</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">640</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">641</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">642</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">643</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">644</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">645</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">646</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">647</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">648</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">649</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">650</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">651</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">652</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">653</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">654</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">655</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">656</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">657</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">658</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">659</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">660</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">661</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">662</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">663</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">664</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">665</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">666</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">667</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">668</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">669</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">670</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">671</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">672</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">673</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">674</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">675</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">676</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">677</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">678</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">679</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">680</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">681</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">682</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">683</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">684</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">685</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">686</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">687</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">688</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">689</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">690</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">691</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">692</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">693</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">694</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">695</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">696</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">697</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">698</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">699</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">700</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">701</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">702</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">703</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">704</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">705</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">706</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">707</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">708</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">709</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">710</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">711</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">712</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">713</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">714</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">715</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">716</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">717</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">718</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">719</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">720</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">721</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">722</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">723</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">724</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">725</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">726</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">727</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">728</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">729</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">730</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">731</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">732</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">733</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">734</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">735</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">736</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">737</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">738</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">739</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">740</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">741</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">742</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">743</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">744</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">745</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">746</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">747</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">748</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">749</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">750</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">751</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">752</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">753</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">754</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">755</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">92</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">756</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">757</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">758</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">759</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">760</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">761</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">762</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">763</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">764</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">765</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">766</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">767</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">768</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">769</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">770</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">771</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">772</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">773</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">774</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">775</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">776</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">777</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">778</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">779</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">780</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">781</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">782</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">783</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">95</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">784</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">785</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">786</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">787</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">788</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">789</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">790</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">791</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">792</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">793</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">794</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">94</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">795</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">796</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">797</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">798</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">799</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+					<TransmittanceValue>
+						<nsLM:WaveLength unit="nm">800</nsLM:WaveLength>
+						<nsLM:Transmittance unit=" % ">93</nsLM:Transmittance>
+					</TransmittanceValue>
+				</TransmittanceData>
+				<nsLM:ConfidenceIndex></nsLM:ConfidenceIndex>
+			</nsLM:S>
+		</nsLM:LM>
+	</nsLM:Measure>
+</Ophthalmology>
+

@@ -1,0 +1,19 @@
+# Compiled files
+*.pyc
+__pycache__/
+*.o
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive data (customize as needed)
+*.key
+*.pem
+credentials*
+config_private*
