@@ -902,13 +902,13 @@ def main():
     ap.add_argument(
         "--in_dir",
         type=Path,
-        default=Path("/Users/georgplessl/Desktop/Bachelorarbeit_Transmissionsmessung/data/raw_xml"),
+        default=Path("/Users/georgplessl/Desktop/BA_TM_review/Bachelorarbeit_Transmissionsmessung_public/data/raw_xml"),
         help="Ordner mit SOLOS-XML",
     )
     ap.add_argument(
         "--out_dir",
         type=Path,
-        default=Path("/Users/georgplessl/Desktop/Bachelorarbeit_Transmissionsmessung/outputs"),
+        default=Path("/Users/georgplessl/Desktop/BA_TM_review/Bachelorarbeit_Transmissionsmessung_public/outputs"),
         help="Zielordner für CSV/Plots",
     )
     args = ap.parse_args()
