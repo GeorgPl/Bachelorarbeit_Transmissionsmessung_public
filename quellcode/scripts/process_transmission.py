@@ -281,19 +281,6 @@ def read_solos_xml(xml_path: Path) -> pd.DataFrame:
 # ==============================================================
 # Kennwerte – Anzeige-/Arbeitsgrößen (nicht direkt normativ)
 # ==============================================================
-# xxx
-def tau_v_photopic_D65(wavelength_nm: np.ndarray, T_percent: np.ndarray) -> float:
-    """
-    Photopische Transmission τ_v in % (D65·V-gewichtet, 380–780 nm).
-
-    Hinweis:
-    Diese Größe entspricht der normativen Lichttransmission nach DIN EN ISO 8980-3,
-    wird hier aber explizit als Anzeigegröße geführt.
-    """
-    # Gleiche Rechnung wie tau_V_norm_8980, aber semantisch als Anzeigegroesse.
-    return tau_V_norm_8980(wavelength_nm, T_percent)
-
-
 def tau_band_avg(
     wavelength_nm: np.ndarray, T_percent: np.ndarray, lo: float, hi: float
 ) -> float:
