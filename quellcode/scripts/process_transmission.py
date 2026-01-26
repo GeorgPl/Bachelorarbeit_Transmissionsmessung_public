@@ -843,38 +843,6 @@ def aggregate_by_glass(df_files: pd.DataFrame) -> pd.DataFrame:
     )
     return df
 
-
-# ==============================================================
-# Optional: ANOVA-Helferfunktionen (werden NICHT automatisch aufgerufen)
-# ==============================================================
-
-def run_anova_on_glass(df_glass: pd.DataFrame, y_col: str) -> Optional[pd.DataFrame]:
-    """
-    Einfaktorielle ANOVA für den Kennwert y_col mit Faktor 'manufacturer'.
-
-    y_col sollte eine der *_mean-Spalten aus df_glass sein,
-    z. B. 'tauV_percent_ISO8980_mean'.
-
-    Rückgabe:
-        ANOVA-Tabelle als DataFrame oder None, falls statsmodels nicht verfügbar ist.
-    """
-    try:
-        import statsmodels.api as sm  # type: ignore[import]
-        from statsmodels.formula.api import ols  # type: ignore[import]
-    except ImportError:
-        print("Hinweis: statsmodels ist nicht installiert; ANOVA wird nicht ausgeführt.")
-        return None
-
-    df = df_glass.dropna(subset=[y_col, "manufacturer"]).copy()
-    if df.empty:
-        print("Keine Daten für ANOVA verfügbar.")
-        return None
-
-    model = ols(f"{y_col} ~ C(manufacturer)", data=df).fit()
-    anova_table = sm.stats.anova_lm(model, typ=2)
-    return anova_table
-
-
 # ==============================================================
 # Command Line Interface (CLI)
 # ==============================================================
